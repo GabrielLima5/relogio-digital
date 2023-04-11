@@ -48,3 +48,28 @@ body {
 .relogio > div .tempo {
   font-size: 20px;
 }
+
+@media only screen and (max-width: 600px){
+  .relogio{
+    width: 400px;
+    height: 150px;
+  }
+
+  .relogio > div{
+    padding: 10px;
+    width: 115px;
+    height: 130px;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .relogio{
+    height: 600px;
+    flex-direction: column;
+  }
+
+  .relogio > div{
+    height: 170px;
+    width: 150px;
+  }
+}
